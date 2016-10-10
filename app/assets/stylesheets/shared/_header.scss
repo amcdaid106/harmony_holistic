@@ -1,0 +1,24 @@
+.page-heading {
+  display: flex;
+  justify-content: space-between;
+  h1, h2, h3, h4, h5 {
+    font-weight: lighter;
+  }
+  h1, h2 {
+    color: $brand-color;
+  }
+}
+
+.page-heading-right {
+  margin-top: 40px;
+}
+.page-heading-contact-info {
+  display: flex;
+  p {
+    font-weight: lighter;
+  }
+  i {
+    padding: 3px 10px 0 0;
+    color: $brand-color;
+  }
+}
