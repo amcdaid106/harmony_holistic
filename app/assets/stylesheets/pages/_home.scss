@@ -1,4 +1,15 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+.carousel-inner {
+  .item > img {
+    max-height: 250px;
+    min-width: 500px;
+    margin: 0 auto;
+  }
+}
+.welcome-info {
+  margin-top: 50px;
+}
+.welcome-info-item {
+  background-color: $brand-color;
+  padding: 10px;
+  border-radius: 3px;
+}
