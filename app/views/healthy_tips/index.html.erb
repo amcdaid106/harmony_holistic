@@ -1,0 +1,6 @@
+<h1>Healthy Tips</h1>
+
+<% @healthy_tips.each do |healthy_tip| %>
+  <h2><%= healthy_tip.title %></h2>
+  <p><%= raw healthy_tip.body %></p>
+<% end %>

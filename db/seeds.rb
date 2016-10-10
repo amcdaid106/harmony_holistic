@@ -49,3 +49,45 @@ Recipe.create(
   instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
   photo: "potato-soup.jpg"
 )
+
+HealthyTip.destroy_all
+
+HealthyTip.create(
+  title: "Hayfever? Try Quercetin",
+  body: "Quercetin is a natural anti-histamine, anti-oxidant and anti-inflammatory. It is found in red onions, cranberries, spinach, carrots, blueberries, cherries, broccoli, blackberries, apples, red grapes, lettuce, plums and raspberries or can be taken as a supplement. Also present in kelp."
+)
+HealthyTip.create(
+  title: "Tips on changing to a healthier lifestyle",
+  body: "<ul><li>'Diets' don’t work.  It is better to build in small changes to your normal eating pattern that you can maintain long term.  Eat natural, real, unprocessed whole foods.</li><li>
+        Change to a low GL (glycaemic load), which help to balance your blood sugar levels, releasing energy slowly, keeping you going for longer, eg oats.</li><li>
+        Change from white to brown, eg, from white pasta, bread, couscous, scones, baguettes, bagels, noodles to wholegrain brown bread, wholemeal pasta, brown rice, brown basmati rice, quinoa or bulgur wheat.</li><li>
+        Eat essential ‘good’ fats, eg, seeds, nuts, avocados, home-made granola.</li><li>
+        If you drink a lot of tea and coffee, try substituting herbal teas sometimes.</li><li>
+        Sometimes thirst is mistaken for hunger.  Try drinking water when you think you’re hungry.  Sip water throughout the day, rather than gulping down a large glass at a time.</li><li>
+        Replace fizzy drinks and juices with water.</li><li>
+        Avoid anything which boasts ‘no sugar’ as it will usually contain artificial sweeteners.</li><li>
+        If you crave something sweet, try a square or two of good quality dark chocolate instead of a biscuit.</li><li>
+        Build in daily exercise to your lifestyle.</li><li>
+        Get adequate sleep. Various studies have shown that not getting enough sleep leads to weight gain.</ul>"
+)
+HealthyTip.create(
+  title: "Hayfever? Try Quercetin",
+  body: "Quercetin is a natural anti-histamine, anti-oxidant and anti-inflammatory. It is found in red onions, cranberries, spinach, carrots, blueberries, cherries, broccoli, blackberries, apples, red grapes, lettuce, plums and raspberries or can be taken as a supplement. Also present in kelp."
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

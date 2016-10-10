@@ -1,0 +1,2 @@
+class HealthyTip < ApplicationRecord
+end
