@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   get '/recipes', to: 'recipes#index'
   get '/healthy_tips', to: 'healthy_tips#index'
   get '/services', to: 'pages#services'
+  get '/contact', to: 'pages#contact'
+
 
 end
