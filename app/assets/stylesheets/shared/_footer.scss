@@ -1,7 +1,8 @@
 .footer {
   background-color: $brand-color;
   margin-top: 100px;
-  padding: 30px;
+  padding: 10px;
+  color: #776274;
 }
 .social-links {
   span {
@@ -9,5 +10,9 @@
   }
   a {
     color: #776274;
+    &:hover {
+      color: #26408B;
+    }
   }
+
 }
