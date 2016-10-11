@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+      <h3>Contact</h3>
+      <p>Please get in touch by e-mail or with the form below to schedule an appointment.</p>
+
+        <%= simple_form_for @contact, :html => {:class => 'form-horizontal contact-form' } do |f| %>
+          <%= f.input :name, :required => true %>
+          <%= f.input :email, :required => true %>
+          <%= f.input :message, :as => :text, :required => true %>
+          <div class= "hidden">
+            <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+          </div>
+          <div>
+            <br>
+            <%= f.button :submit, 'Send message', :class=> "btn btn-primary pull-right" %>
+          </div>
+        <% end %>
+    </div>
+    <div class="col-xs-12 col-sm-5">
+      <div class="basic-contact-info">
+        <h3>Address</h3>
+        <p>31 Hollystown Demesne, Hollystown, Dublin 15, Co.Dublin</p>
+        <div id="address-map" style='background-image: url("https://maps.googleapis.com/maps/api/staticmap?center=31 Hollystown Demesne, Hollystown, Dublin 15, Co.Dublin&zoom=15&key=AIzaSyB43mAjLeq18-tumQ8ytChKGtMM_Rr1Wx0&size=1200x600&sensor=false&maptype=roadmap&markers=color:red|31 Hollystown Demesne, Hollystown, Dublin 15, Co.Dublin");
+        '></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<iframe
+  width="450"
+  height="250"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAeamxaWn-KEsAlUvgMFZ2z7jtOu8bG8G0&q=31+Hollystown+Demesne,Hollystown,Dublin+15,Co.Dublin" allowfullscreen>
+</iframe>
+
+
+Key
+AIzaSyAeamxaWn-KEsAlUvgMFZ2z7jtOu8bG8G0
+
+
+
+
