@@ -1,6 +1,8 @@
 class ContactsController < ApplicationController
   def new
     @contact = Contact.new
+    @google_maps_url = "https://www.google.com/maps/embed/v1/search?key=#{ENV['google_maps_key']}&q=31+Hollystown+Demesne,Hollystown,Dublin+15,Co.Dublin"
+
   end
 
   def create
