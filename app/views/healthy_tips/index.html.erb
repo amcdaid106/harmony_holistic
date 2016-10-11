@@ -1,6 +1,19 @@
-<h1>Healthy Tips</h1>
-
-<% @healthy_tips.each do |healthy_tip| %>
-  <h2><%= healthy_tip.title %></h2>
-  <p><%= raw healthy_tip.body %></p>
-<% end %>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="text-center">Tips for Healthy Living</h1>
+        <% @healthy_tips.each do |healthy_tip| %>
+          <div class="col-xs-12 col-sm-4">
+            <%= link_to "#", "data-toggle" => "modal", "data-target" => "#healthy_tip-#{healthy_tip.id}" do %>
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= asset_path healthy_tip.photo %>);">
+                <div class="card-description">
+                  <h2><%= healthy_tip.title %></h2>
+                </div>
+              </div>
+            <% end %>
+          </div>
+          <%= render 'healthy_tips/show', healthy_tip: healthy_tip %>
+        <% end %>
+    </div>
+  </div>
+</div>
