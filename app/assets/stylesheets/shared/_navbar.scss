@@ -1,6 +1,8 @@
 .navbar {
+  margin-bottom: -1px;
   .navbar-container {
     padding: 0;
+    margin: 0, -1px;
     .hht-navbar-collapse {
       margin-top: 105px;
       background-color: $brand-color;
