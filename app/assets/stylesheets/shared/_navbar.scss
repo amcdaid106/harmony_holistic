@@ -1,6 +1,7 @@
 .navbar {
   margin-bottom: -1px;
   background-color: $brand-color;
+  padding: 0;
   a {
   color: white;
   }
@@ -18,9 +19,9 @@
       .navbar-list {
         float: none;
         display: inline-block;
-        a {
+        a:hover {
+          color: $charcoal;
         }
       }
   }
-
 }
