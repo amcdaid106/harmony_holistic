@@ -1,0 +1,10 @@
+.navbar .container-fluid {
+  padding: 0;
+  .navbar-nav a {
+    color: white;
+  }
+  .collapse.navbar-collapse {
+    margin-top: 105px;
+    background-color: $brand-color;
+  }
+}
