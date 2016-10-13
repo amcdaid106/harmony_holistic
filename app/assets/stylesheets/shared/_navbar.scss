@@ -1,11 +1,16 @@
 .navbar {
   margin-bottom: -1px;
+  background-color: $brand-color;
+  a {
+  color: white;
+  }
   .navbar-container {
     padding: 0;
     margin: 0, -1px;
+    .icon-bar {
+      background-color: white;
+    }
     .hht-navbar-collapse {
-      // margin-top: 105px;
-      background-color: $brand-color;
       text-align: center;
       margin-left: -15px;
       margin-right: -15px;
@@ -14,7 +19,6 @@
         float: none;
         display: inline-block;
         a {
-          color: white;
         }
       }
   }
