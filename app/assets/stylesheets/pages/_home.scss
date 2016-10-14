@@ -10,17 +10,72 @@
 }
 .welcome-info-item {
   box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-  min-height: 230px;
+  min-height: 240px;
   background-color: $charcoal;
   color: white;
   padding: 10px;
   border-radius: 3px;
-  margin: 0 20px;
+  margin: 20px 20px;
   font-weight: lighter;
   a {
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     color: $brand-color;
     font-weight: normal;
   }
 }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .welcome-info-item {
+    min-height: 330px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 765px) {
+  .welcome-info-item {
+    min-height: 200px;
+  }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .welcome-info-item {
+    min-height: 220px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+// ////////////////////////////
+// ///
+// /* Small devices (tablets, 768px and up) */
+// @media (min-width: @screen-sm-min) {
+//   .welcome-info-item {
+//     min-height: 330px;
+//   }
+// }
+
+// /* Medium devices (desktops, 992px and up) */
+// @media (min-width: @screen-md-min) {
+//   .welcome-info-item {
+//     min-height: 250px;
+//   }
+// }
+
+// /* Large devices (large desktops, 1200px and up) */
+// @media (min-width: @screen-lg-min) {
+//   .welcome-info-item {
+//     min-height: 220px;
+//   }
+// }
