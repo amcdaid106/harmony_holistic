@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <h1 class="text-center">Recipes</h1>
+      <h2 class="text-center">Recipes</h2>
         <% @recipes.each do |recipe| %>
           <div class="col-xs-12 col-sm-4">
             <%= link_to "#", "data-toggle" => "modal", "data-target" => "#recipe-#{recipe.id}" do %>

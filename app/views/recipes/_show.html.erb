@@ -7,12 +7,12 @@
         <h4 class="modal-title" id="myModalLabel"><%= recipe.name %></h4>
       </div>
       <div class="modal-body">
-        <p><%= recipe.blurb %></p>
+        <p><%= raw recipe.blurb %></p>
         <div class="photo-section">
           <%= image_tag "#{recipe.photo}", :class => "recipe-show-photo text-center" %>
         </div>
         <p><%= raw recipe.ingredients %></p>
-        <p><%= recipe.instructions %></p>
+        <p><%= raw recipe.instructions %></p>
       </div>
     </div>
   </div>

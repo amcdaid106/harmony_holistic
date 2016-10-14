@@ -10,44 +10,212 @@ Recipe.destroy_all
 Recipe.create(
   name: "Guacamole",
   blurb: "Avocado is a super food, rich in vitamins and minerals particularly vitamin E and monosaturated fat. Guacamole is an excellent way to enjoy avocado.",
-  ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</ul>",
+  ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</li></ul>",
   instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
   photo: "guacamole.jpg"
 )
 Recipe.create(
+  name: "Chewy Cranberry Bars",
+  blurb: "Makes 20, prep: 40 mins",
+  ingredients: "<ul>
+                <li>50g plain flour</li>
+                <li>½ tsp mixed spice</li>
+                <li>Pinch of salt</li>
+                <li>300g porridge oats</li>
+                <li>50g dessicated coconut</li>
+                <li>50g sesame seeds</li>
+                <li>100g sunflower or pumpkin seeds</li>
+                <li>125g dried unsweetened cranberries</li>
+                <li>200g unsalted butter</li>
+                <li>125g golden syrup</li>
+                <li>200g soft brown sugar</li>
+                <li>125g crunchy peanut butter</li>
+                <li>1 tsp vanilla essence</li>
+                </ul>",
+  instructions: "<p>Preheat oven to 160c.  Grease 20x30cm (8x12in) shallow tin and line with baking paper, leaving a little hanging over the two long sides for easy removal.</p>
+                <p>Sift flour, mixed spice and salt into a large bowl.</p>
+                <p>Mix in the oats, coconut, sesame seeds, sunflower or pumpkin seeds and dried cranberries.</p>
+                <p>Put the butter and golden syrup into a saucepan and stir over a low heat until melted.</p>
+                <p>Remove from the heat and mix in sugar, peanut butter and vanilla essence.</p>
+                <p>Pour the butter mixture into the bowl of dry ingredients and mix with a large metal spoon until combined.</p>
+                <p>Press mixture into the prepared tin and bake 25mins or until golden and firm.</p>
+                <p>Allow to cool in tin, then turn out and cut into 20 squares.</p>
+                <p>Store bars in airtight container for up to 7 days.</p>",
+  photo: "cranberry_bars.jpg"
+)
+Recipe.create(
   name: "Quinoa",
-  blurb: "Avocado is a super food, rich in vitamins and minerals particularly vitamin E and monosaturated fat. Guacamole is an excellent way to enjoy avocado.",
-  ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</ul>",
-  instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
+  instructions: "<p>Quinoa is a relative of beetroot, spinach and chard.  It is an excellent source of protein as it contains all essential amino acids, making it a complete protein source.  It also contains twice to three times as much iron, magnesium and calcium as other grains. It is naturally gluten-free so is suitable for coeliacs.</p>
+                <p>To cook quinoa grain, you firstly rinse it well and drain.  Then cook it in a saucepan with twice its volume of water or stock.  Bring to the boil, cover and leave to simmer gently until the grains have doubled in volume and released their little white germ (10-15mins). Fry up garlic, spring onion, finely diced pepper and courgette, with coconut oil and some garam masala or a little turmeric, coriander and cumin. Then add the cooked quinoa. Serve with chopped coriander leaves through it.  It can be eaten hot as an accompaniment to meat/fish and vegetables for dinner or cold as a salad.  As it is low GI, it will keep you feeling full for longer.</p>
+                <p>Sprouted quinoa can be added to casseroles, stews and soups at the end of cooking.</p>",
   photo: "quinoa.jpg"
 )
 Recipe.create(
   name: "Dreamy Detox Smoothie",
-  blurb: "Avocado is a super food, rich in vitamins and minerals particularly vitamin E and monosaturated fat. Guacamole is an excellent way to enjoy avocado.",
-  ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</ul>",
-  instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
+  ingredients: "<ul><li>2 apples</li><li>1 slice lemon with rind on (unwaxed)</li><li>1 inch slice cucumber</li><li>1 small stick of celery</li><li>1 inch piece of ginger</li><li>1 thick slice beetroot</li><li>1 inch piece of yellow pepper</li><li>2 carrots</li><li>Ice (optional)</li></ul>",
+  instructions: "<p>What’s in it?</p><p>Vitamins A, B1, B3, B5, B6, C, E, K, copper, calcium, chromium, iron, magnesium, potassium, boron, ellagic acid, beta carotene, folic acid, phosphorus, selenium, zinc, riboflavin and anti-cancer phytonutrients.</p>
+                <p>Apple and cucumber are amazing for flushing out and cleansing the system.</p>
+                <p>Celery helps to flush the body of excess carbon dioxide and reduce acidity in the body.  Ginger is a well-known natural antibiotic and superb decongestant.  Lemon is particularly powerful at removing harmful bacteria and toxins from the intestinal tract and is also amazing at cleansing the liver and kidneys. Beetroot is a useful detoxifier and blood purifier, it is rich in a variety of nutrients crucial for immunity.</p>",
   photo: "smoothie.jpeg"
 )
 Recipe.create(
   name: "Granola",
-  blurb: "Avocado is a super food, rich in vitamins and minerals particularly vitamin E and monosaturated fat. Guacamole is an excellent way to enjoy avocado.",
-  ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</ul>",
-  instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
+  ingredients: "<ul><li>150g whole rolled jumbo porridge oats</li><li>50g chopped walnuts or hazelnuts</li><li>50g chopped almonds</li><li>50g desiccated coconut</li><li>70g sunflower seeds</li><li>100g sesame seeds</li><li>Handful of linseed</li><li>2 tbsp olive oil</li><li>2 tbsp honey</li></ul>",
+  instructions: "<p>Oven 150 C</p>
+                <p>Oil a baking sheet.
+                <p>Place the oats, walnuts, almonds, coconut, sunflower seeds and sesame seeds in a bowl.</p>
+                <p>Put the oil and honey in a pot and melt together over a low heat, then drizzle into the bowl, stirring well.</p>
+                <p>Spread thinly on to the baking sheet and bake for 25-30 minutes, stirring carefully a couple of times, until evenly browned.</p>
+                <p>Do not allow the granola to go beyond golden brown.  Remove and cool.  Break up any large chunks and store in an airtight jar.</p>
+<                p>Lovely with stewed rhubarb + strawberries or fresh raspberries and natural probiotic yoghurt!</p>",
   photo: "granola.jpg"
 )
 Recipe.create(
   name: "Spinach and Lentil Dhal",
-  blurb: "Avocado is a super food, rich in vitamins and minerals particularly vitamin E and monosaturated fat. Guacamole is an excellent way to enjoy avocado.",
-  ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</ul>",
-  instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
+  ingredients: "<ul><li>250g green lentils</li><li>1.25 litres stock</li><li>6 tbsp oil</li><li>Large onion</li><li>1 leek</li><li>350g spinach coarsely chopped</li><li>1 red pepper</li><li>3 cloves garlic</li><li>1-2 tears of minced chilli (from jar)</li><li>2 tsp coriander</li><li>Salt & pepper</li></ul>",
+  instructions: "<p>Steep lentils overnight (products differ to check instructions on pack)</p>
+                <p>Cook in stock for 30 mins.</p>
+                <p>Meanwhile gently fry onion, leek and pepper for 8 mins</p>
+                <p>Stir in garlic, chilli and spices.</p>
+                <p>Add lentils and spinach.</p>
+                <p>Cook until spinach is wilted.</p>
+                <p>Season to taste.</p>
+                <p>Enjoy with homemade chutney!</p>",
   photo: "spinach-lentil.jpeg"
 )
 Recipe.create(
   name: "Potato and Leek Soup",
-  blurb: "Avocado is a super food, rich in vitamins and minerals particularly vitamin E and monosaturated fat. Guacamole is an excellent way to enjoy avocado.",
-  ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</ul>",
-  instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
+  ingredients: "<ul>
+              <li>1 tbsp oil</li>
+              <li>1 onion, peeled chopped</li>
+              <li>8oz leek, washed and sliced</li>
+              <li>12oz potatoes, peeled and chopped into small cubes</li>
+              <li>1.5 pints of home-made vegetable stock</li>
+              <li>Sea salt</li>
+              <li>Ground black pepper</li>
+              <li>2 bay leaves</li>
+              <li>2 tablespoons freshly chopped parsley</li>
+              </ul>",
+  instructions: "<p>Heat the oil and gentry fry onion for 3-4 minutes without browning.</p>
+                <p>Add the leek and potatoes, stir well and cover the pan.</p>
+                <p>Leave on low heat for a few minutes until the oil has been absorbed.</p>
+                <p>Pour in the veg stock, add a little salt if you wish, plenty of black pepper and bay leaves.</p>
+                <p>Cover the pan, bring to the boil and then simmer gently for approx 15 minutes.</p>
+                <p>Remove the bay leave, stir in the chopped parsley.</p>
+                <p>Puree if you wish.</p>
+                <p>Serve piping hot!</p>",
   photo: "potato-soup.jpg"
+)
+Recipe.create(
+  name: "Buckwheat Crepes",
+  blurb: "<p>Buckwheat is a healthy grain, which contrary to what its name suggests is wheat free.</p>
+          <p>These crepes from Brittany are used for main dish and savory breakfast fillings.</p>",
+  ingredients: "<ul>
+              <li>3/4 cup plus 1 tablespoon buckwheat flour</li>
+              <li>1/3 cup all-purpose flour (can make these gluten free by using gluten free flour)</li>
+              <li>1 2/3 cup milk</li>
+              <li>3 eggs</li>
+              <li>2 tablespoons butter, melted</li>
+              <li>1/4 teaspoon salt</li>
+              </ul>",
+  instructions: "<p>Whisk all the ingredients vigorously until the crepe batter is completely smooth; allow it to rest in the refrigerator for 2 hours before making into crepes.</p>
+                <p>Fill with whatever ingredients you wish. Suggestion: When you turn over the crepe, crack in a free range egg, and cook for a short while, then add fresh ham and grated gruyere cheese. Finish off cooking the egg under the grill, before folding over the crepe.</p>
+                <p>Delicious!</p>",
+  photo: "galettes.jpg"
+)
+Recipe.create(
+  name: "Avoca Santa Fe Pork Stew",
+  ingredients: "<ul>
+              <li>1.3kg/3lb leg of pork, diced</li>
+              <li>2.5 tbsps Flour, generously seasoned with salt & pepper</li>
+              <li>Olive oil</li>
+              <li>2 Large onions, finely chopped</li>
+              <li>6 Garlic cloves, peeled + crushed</li>
+              <li>1.5 tbsps ground cumin</li>
+              <li>1 green chilli, finely chopped</li>
+              <li>400g tin tomatoes</li>
+              <li>300ml white wine</li>
+              <li>300ml chicken stock</li>
+              <li>125ml red wine vinegar</li>
+              <li>2 large sweet potatoes, peeled + cut into 2.5cm/1 inch cubes</li>
+              <li>400g tin black or red kidney beans, drained</li>
+              <li>Half a cup chopped fresh coriander</li>
+              <li>Half a cup chopped fresh flat leaf parsley</li>
+              <li>Creme fraiche and lime wedges to serve</li>
+              </ul>",
+  instructions: "<p>Toss pork in seasoned flour. Brown the meat in small batches (using the olive oil) in a
+  flameproof casserole and set aside. Saute the onions (in the same casserole dish) in 4 tablespoons of olive
+  oil until opaque. Add garlic, cumin and chilli and cook for 3-4 mins. Return the pork to the casserole along
+  with the tomatoes, wine, stock and vinegar and season with salt + pepper. Bring to the boil, transfer to the
+  oven and cook UNCOVERED for 30 mins. Remove from oven and add the sweet potatoes and return to the oven for
+  another 30 mins. Remove again, add the beans and cook for a further 15 mins until the beans are warmed through.
+  Stir in the coriander + parsley and serve with the creme fraiche and lime wedges.</p>",
+  photo: "pork_stew.jpg"
+)
+Recipe.create(
+  name: "Healthy Breakfast Bars (Odlums)",
+  ingredients: "<ul>
+              <li>300g/11oz Porridge</li>
+              <li>1x 397g Tin Condensed Milk</li>
+              <li>125g/4oz Raisins</li>
+              <li>100g packet flaked almonds</li>
+              <li>100g packet dried cranberries or blueberries</li>
+              <li>75g/3oz desiccated coconut</li>
+              <li>2 tablespoons linseeds</li>
+              </ul>",
+  instructions: "<p>Preheat the oven to 130°C/250°F/Gas ½. Line a swiss roll tin 28cms x 18cms(11 in x 7 in) with good quality baking parchment. Lightly brush with vegetable oil.</p>
+                <p>Warm the condensed milk in a large pan.</p>
+                <p>Meanwhile, mix together all the other ingredients and then add the warmed condensed milk. Mix well, making sure all the dry ingredients are moistened.</p>
+                <p>Spread the mixture evenly into the prepared tin. Press down well with the back of a spoon dipped in cold water.</p>
+                <p>Bake for about an hour, until golden brown and set. Remove from the oven and allow to cool a little before gently cutting into bars with a serrated knife (bread knife).</p>
+                <p>When cold, store in an airtight container.</p>",
+  photo: "breakfast_bars.jpg"
+)
+Recipe.create(
+  name: "Flapjacks (Healthier version!)",
+  ingredients: "<ul>
+              <li>400g porridge oats</li>
+              <li>100g dried cranberries</li>
+              <li>125g seeds – pumpkin, sunflower, sesame</li>
+              <li>125 chopped unsalted nuts - peanuts/cashew/pistachio/almonds</li>
+              <li>Tin condensed milk</li>
+              </ul>",
+  instructions: "<p>Pour condensed milk into saucepan on low heat until mixed and heated through.</p>
+                <p>Mix ingredients in a big bowl.</p>
+                <p>Pour condensed milk in and mix.</p>
+                <p>Push down into a lined baking tin.</p>
+                <p>Oven at 130˚C for 1 hour.</p>
+                <p>Leave in tray for 15mins.</p>
+                <p>Then cut and leave to cool.</p>",
+  photo: "flapjacks.jpg"
+)
+Recipe.create(
+  name: "Spelt Brown Bread",
+  ingredients: "<ul>
+              <li>440g spelt brown flour</li>
+              <li>½ tsp bread soda</li>
+              <li>20g butter</li>
+              <li>350ml water</li>
+              <li>Seeds/nuts – eg, carroway seeds/pumpkin seeds</li>
+              </ul>",
+  instructions: "<p>Bake for 10 mins at 400F/200C/Gas mark 6</p>
+                <p>Another 40 mins at 350F/180C/Gas mark 4)</p>",
+  photo: "spelt_bread.jpg"
+)
+Recipe.create(
+  name: "Gluten Free Raspberry Cakes",
+  blurb: "Makes 12 cakes",
+  ingredients: "<ul>
+              <li>150g butter (I use less)</li>
+              <li>175g Icing sugar, plus extra to serve</li>
+              <li>50g Plain flour (to make this gluten free, I use Doves all purpose gluten free flour)</li>
+              <li>100g Ground Almonds</li>
+              <li>2 eggs</li>
+              <li>36-60 raspberries</li>
+              </ul>",
+  instructions: "<p> Preheat the oven to 170C/325F/Gas 3.  Melt the butter and let it cool.</p>
+                <p>Sieve the icing sugar and flour together and add the ground almonds. Beat the eggs with a fork and add to the mixture, stirring to combine. Add the cooled melted butter and mix it well. It will be quite a soft batter. Pour into bun cases in the muffin tin and top each one with 3-5 raspberries. Place the cakes in the oven and cook for 14-18 minutes until just firm in the centre. Wait for a few minutes before trying to take them out of the tins. Dust with icing sugar.</p>",
+  photo: "raspberry_cakes.jpg"
 )
 
 HealthyTip.destroy_all
