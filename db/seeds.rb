@@ -75,9 +75,9 @@ HealthyTip.create(
 )
 HealthyTip.create(
   title: "Tips to help avoid colds and flu!",
-  body: "<h4>What causes colds and flu?</h4>
+  body: "<h5>What causes colds and flu?</h5>
         <p>Both colds and flu are caused by a wide variety of viruses and not bacteria. The swine flu guidelines of “catch it, bin it, kill it” are good advice to protect against the common cold. Keeping your immune system strong will guard against catching colds and flu viruses.</p>
-        <h4>Top tips to help avoid colds and flu</h4>
+        <h5>Top tips to help avoid colds and flu</h5>
         <ul>
         <li>Avoid anti-nutrients and toxins: Over consumption of foods rich in sugar, artificial additives, artificial sweeteners, artificial flavourings, processed foods and alcohol – all work against your immune system.  Smoking depletes many minerals and vitamins such as vitamins A, C, E, zinc, selenium</li>
         <li>Get rest – listen to your body!</li>
@@ -85,7 +85,7 @@ HealthyTip.create(
         <li>Recognise stress signals in order to maintain a resilient immune system:  Avoid stressful situations or develop coping mechanisms to help you manage your reactions to unavoidable stressors.  Emotional stressors can predispose you to an infection while making cold symptoms worse.</li>
         <li>Drink plenty of water. Water is essential for the optimal function of every system in your body.  Sip 1.5 – 2 litres of water throughout the day.</li>
         </ul>
-        <h4>Foods, supplements and herbal remedies which may help</h4>
+        <h5>Foods, supplements and herbal remedies which may help</h5>
         <ul>
         <li>Increase Vitamin A (sources include: apples, cantaloupe melon, carrots, hard/cream cheese, eggs, fish liver oils - cod & halibut, lime, liver, mango, cows/goats milk, peaches).</li>
         <li>Increase intake of Vitamin B: (sources include: nuts, seeds, quinoa, bulgur wheat, buckwheat, wholegrains, brown rice, oats, wheat germ, bran, avocados, green leafy veg, banana, milk, yeast extract, mushrooms, fish, bacon, beef, chicken, duck, kidney, liver, lamb, pork and turkey)</li>
