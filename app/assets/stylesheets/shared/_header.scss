@@ -13,6 +13,16 @@
     color: $brand-color;
     margin-top: 0;
   }
+
+  a {
+    text-decoration: none;
+    h4 {
+      color: black
+    }
+    &:hover h4 {
+      text-decoration: none;
+    }
+  }
 }
 
 .page-heading-contact-info {
