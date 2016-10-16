@@ -16,7 +16,7 @@ Recipe.create(
 )
 Recipe.create(
   name: "Chewy Cranberry Bars",
-  blurb: "Makes 20, prep: 40 mins"
+  blurb: "Makes 20, prep: 40 mins",
   ingredients: "<ul>
                 <li>50g plain flour</li>
                 <li>½ tsp mixed spice</li>
