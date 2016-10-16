@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <h2 class="text-center">Recipes</h2>
+      <h3 class="text-center page-title">Recipes</h3>
         <% @recipes.each do |recipe| %>
           <div class="col-xs-12 col-sm-4">
             <%= link_to "#", "data-toggle" => "modal", "data-target" => "#recipe-#{recipe.id}" do %>
               <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= asset_path recipe.photo %>);">
                 <div class="card-description">
-                  <h2><%= recipe.name %></h2>
+                  <h4><%= recipe.name %></h4>
                 </div>
               </div>
             <% end %>

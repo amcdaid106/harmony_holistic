@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-xs-12">
       <div class="healthy-tip-section">
-        <h2 class="text-center">Tips for Healthy Living</h2>
+        <h3 class="text-center page-title">Tips for Healthy Living</h3>
           <% @healthy_tips.each do |healthy_tip| %>
             <%= link_to "#", "data-toggle" => "modal", "data-target" => "#healthy_tip-#{healthy_tip.id}", :class => "healthy-tip-link" do %>
               <div class="row">
