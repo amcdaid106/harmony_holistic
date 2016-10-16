@@ -67,7 +67,7 @@ Recipe.create(
                 <p>Put the oil and honey in a pot and melt together over a low heat, then drizzle into the bowl, stirring well.</p>
                 <p>Spread thinly on to the baking sheet and bake for 25-30 minutes, stirring carefully a couple of times, until evenly browned.</p>
                 <p>Do not allow the granola to go beyond golden brown.  Remove and cool.  Break up any large chunks and store in an airtight jar.</p>
-<                p>Lovely with stewed rhubarb + strawberries or fresh raspberries and natural probiotic yoghurt!</p>",
+                <p>Lovely with stewed rhubarb + strawberries or fresh raspberries and natural probiotic yoghurt!</p>",
   photo: "granola.jpg"
 )
 Recipe.create(
