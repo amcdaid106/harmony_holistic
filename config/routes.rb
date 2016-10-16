@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get '/services', to: 'pages#services'
   get '/useful_links', to: 'pages#useful_links'
   get '/reviews', to: 'pages#reviews'
-  match '/contacts',     to: 'contacts#new',             via: 'get'
+  match '/contact',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
 
 end
