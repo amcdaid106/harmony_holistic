@@ -56,7 +56,7 @@ Recipe.create(
   instructions: "<p>What’s in it?</p><p>Vitamins A, B1, B3, B5, B6, C, E, K, copper, calcium, chromium, iron, magnesium, potassium, boron, ellagic acid, beta carotene, folic acid, phosphorus, selenium, zinc, riboflavin and anti-cancer phytonutrients.</p>
                 <p>Apple and cucumber are amazing for flushing out and cleansing the system.</p>
                 <p>Celery helps to flush the body of excess carbon dioxide and reduce acidity in the body.  Ginger is a well-known natural antibiotic and superb decongestant.  Lemon is particularly powerful at removing harmful bacteria and toxins from the intestinal tract and is also amazing at cleansing the liver and kidneys. Beetroot is a useful detoxifier and blood purifier, it is rich in a variety of nutrients crucial for immunity.</p>",
-  photo: "smoothie.jpeg"
+  photo: "smoothie.jpg"
 )
 Recipe.create(
   name: "Granola",
@@ -81,7 +81,7 @@ Recipe.create(
                 <p>Cook until spinach is wilted.</p>
                 <p>Season to taste.</p>
                 <p>Enjoy with homemade chutney!</p>",
-  photo: "spinach-lentil.jpeg"
+  photo: "spinach-lentil.jpg"
 )
 Recipe.create(
   name: "Potato and Leek Soup",
@@ -268,7 +268,7 @@ HealthyTip.create(
         </ul>
         <p>Note: it is generally preferable to consume vitamins through diet rather than taking supplements.</p>
         <p>Antibiotics do NOT work against viruses; hence they are useless against colds and flu.</p>",
-  photo: "colds_and_flu.jpeg"
+  photo: "colds_and_flu.jpg"
 )
 HealthyTip.create(
   title: "Info on anti-inflammatory foods and supplements",
