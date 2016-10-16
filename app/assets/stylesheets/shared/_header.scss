@@ -1,22 +1,23 @@
 .page-heading {
+  align-items: center;
   background-color: white;
   display: flex;
+  margin: 6px 36px;
   justify-content: space-between;
+
   h1, h2, h3, h4, h5 {
     font-weight: lighter;
   }
+
   h1, h2 {
     color: $brand-color;
+    margin-top: 0;
   }
 }
-.heading-space {
-  background-color: white;
-}
-.page-heading-right {
-  margin-top: 40px;
-}
+
 .page-heading-contact-info {
   display: flex;
+  justify-content: flex-end;
   p {
     font-weight: lighter;
   }
