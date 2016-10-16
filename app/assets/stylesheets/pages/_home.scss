@@ -5,13 +5,18 @@
     margin: 0 auto;
   }
 }
+.carousel-control {
+  &.left, &.right {
+    background-image: none;
+  }
+}
 .welcome-info {
   margin-top: 40px;
 }
 .welcome-info-item {
   box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
   min-height: 240px;
-  background-color: $charcoal;
+  background-color: $purple;
   color: white;
   padding: 10px 21px;
   border-radius: 3px;
@@ -20,7 +25,7 @@
   a {
     position: absolute;
     bottom: 25px;
-    color: $brand-color;
+    color: #d7cfdc;
     font-weight: normal;
   }
 }

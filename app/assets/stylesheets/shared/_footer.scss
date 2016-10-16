@@ -1,7 +1,7 @@
 .footer {
   background-color: $brand-color;
   padding: 20px 0 40px;
-  color: #776274;
+  color: darken($purple, 10%);
   position: fixed;
   left: 0px;
   bottom: 0px;
@@ -14,9 +14,9 @@
     margin: 0 10px;
   }
   a {
-    color: #776274;
+    color: darken($purple, 10%);
     &:hover {
-      color: #26408B;
+      color: darken($purple, 20%);
     }
   }
 
