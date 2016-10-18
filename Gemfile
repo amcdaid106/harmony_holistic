@@ -16,6 +16,10 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 gem "mail_form", ">= 1.3.0"
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin', '>= 1.0.0.rc'
+gem 'devise'
+gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 
 group :development, :test do
   gem 'binding_of_caller'

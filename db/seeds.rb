@@ -11,8 +11,8 @@ Recipe.create(
   name: "Guacamole",
   blurb: "Avocado is a super food, rich in vitamins and minerals particularly vitamin E and monosaturated fat. Guacamole is an excellent way to enjoy avocado.",
   ingredients: "<ul><li>1 ripe avocado, mashed</li><li>2-3 spring onions or red onion, chopped (optional)</li><li>1 garlic clove, finely chopped</li><li>2 tablespoons of fresh lime juice</li><li>1 tablespoon extra virgin olive oil</li><li>Sprinkling of paprika</li><li>Freshly ground black pepper</li><li>1 tablespoon of fresh coriander leaf, chopped</li><li>2 vine tomatoes, chopped (optional)</li></ul>",
-  instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration).",
-  photo: "guacamole.jpg"
+  instructions: "Cut the avocado in half, remove the stone and scoop out the flesh and mash with a fork. Add the other ingredients. If not using immediately, add the avocado stone and cover with cling film and store in the fridge (this helps prevent discoloration)."
+  # photo: "guacamole.jpg"
 )
 Recipe.create(
   name: "Chewy Cranberry Bars",
@@ -40,23 +40,23 @@ Recipe.create(
                 <p>Pour the butter mixture into the bowl of dry ingredients and mix with a large metal spoon until combined.</p>
                 <p>Press mixture into the prepared tin and bake 25mins or until golden and firm.</p>
                 <p>Allow to cool in tin, then turn out and cut into 20 squares.</p>
-                <p>Store bars in airtight container for up to 7 days.</p>",
-  photo: "cranberry_bars.jpg"
+                <p>Store bars in airtight container for up to 7 days.</p>"
+  # photo: "cranberry_bars.jpg"
 )
 Recipe.create(
   name: "Quinoa",
   instructions: "<p>Quinoa is a relative of beetroot, spinach and chard.  It is an excellent source of protein as it contains all essential amino acids, making it a complete protein source.  It also contains twice to three times as much iron, magnesium and calcium as other grains. It is naturally gluten-free so is suitable for coeliacs.</p>
                 <p>To cook quinoa grain, you firstly rinse it well and drain.  Then cook it in a saucepan with twice its volume of water or stock.  Bring to the boil, cover and leave to simmer gently until the grains have doubled in volume and released their little white germ (10-15mins). Fry up garlic, spring onion, finely diced pepper and courgette, with coconut oil and some garam masala or a little turmeric, coriander and cumin. Then add the cooked quinoa. Serve with chopped coriander leaves through it.  It can be eaten hot as an accompaniment to meat/fish and vegetables for dinner or cold as a salad.  As it is low GI, it will keep you feeling full for longer.</p>
-                <p>Sprouted quinoa can be added to casseroles, stews and soups at the end of cooking.</p>",
-  photo: "quinoa.jpg"
+                <p>Sprouted quinoa can be added to casseroles, stews and soups at the end of cooking.</p>"
+  # photo: "quinoa.jpg"
 )
 Recipe.create(
   name: "Dreamy Detox Smoothie",
   ingredients: "<ul><li>2 apples</li><li>1 slice lemon with rind on (unwaxed)</li><li>1 inch slice cucumber</li><li>1 small stick of celery</li><li>1 inch piece of ginger</li><li>1 thick slice beetroot</li><li>1 inch piece of yellow pepper</li><li>2 carrots</li><li>Ice (optional)</li></ul>",
   instructions: "<p>What’s in it?</p><p>Vitamins A, B1, B3, B5, B6, C, E, K, copper, calcium, chromium, iron, magnesium, potassium, boron, ellagic acid, beta carotene, folic acid, phosphorus, selenium, zinc, riboflavin and anti-cancer phytonutrients.</p>
                 <p>Apple and cucumber are amazing for flushing out and cleansing the system.</p>
-                <p>Celery helps to flush the body of excess carbon dioxide and reduce acidity in the body.  Ginger is a well-known natural antibiotic and superb decongestant.  Lemon is particularly powerful at removing harmful bacteria and toxins from the intestinal tract and is also amazing at cleansing the liver and kidneys. Beetroot is a useful detoxifier and blood purifier, it is rich in a variety of nutrients crucial for immunity.</p>",
-  photo: "smoothie.jpg"
+                <p>Celery helps to flush the body of excess carbon dioxide and reduce acidity in the body.  Ginger is a well-known natural antibiotic and superb decongestant.  Lemon is particularly powerful at removing harmful bacteria and toxins from the intestinal tract and is also amazing at cleansing the liver and kidneys. Beetroot is a useful detoxifier and blood purifier, it is rich in a variety of nutrients crucial for immunity.</p>"
+  # photo: "smoothie.jpg"
 )
 Recipe.create(
   name: "Granola",
@@ -67,8 +67,8 @@ Recipe.create(
                 <p>Put the oil and honey in a pot and melt together over a low heat, then drizzle into the bowl, stirring well.</p>
                 <p>Spread thinly on to the baking sheet and bake for 25-30 minutes, stirring carefully a couple of times, until evenly browned.</p>
                 <p>Do not allow the granola to go beyond golden brown.  Remove and cool.  Break up any large chunks and store in an airtight jar.</p>
-                <p>Lovely with stewed rhubarb + strawberries or fresh raspberries and natural probiotic yoghurt!</p>",
-  photo: "granola.jpg"
+                <p>Lovely with stewed rhubarb + strawberries or fresh raspberries and natural probiotic yoghurt!</p>"
+  # photo: "granola.jpg"
 )
 Recipe.create(
   name: "Spinach and Lentil Dhal",
@@ -80,8 +80,8 @@ Recipe.create(
                 <p>Add lentils and spinach.</p>
                 <p>Cook until spinach is wilted.</p>
                 <p>Season to taste.</p>
-                <p>Enjoy with homemade chutney!</p>",
-  photo: "spinach-lentil.jpg"
+                <p>Enjoy with homemade chutney!</p>"
+  # photo: "spinach-lentil.jpg"
 )
 Recipe.create(
   name: "Potato and Leek Soup",
@@ -103,8 +103,8 @@ Recipe.create(
                 <p>Cover the pan, bring to the boil and then simmer gently for approx 15 minutes.</p>
                 <p>Remove the bay leave, stir in the chopped parsley.</p>
                 <p>Puree if you wish.</p>
-                <p>Serve piping hot!</p>",
-  photo: "potato-soup.jpg"
+                <p>Serve piping hot!</p>"
+  # photo: "potato-soup.jpg"
 )
 Recipe.create(
   name: "Buckwheat Crepes",
@@ -120,8 +120,8 @@ Recipe.create(
               </ul>",
   instructions: "<p>Whisk all the ingredients vigorously until the crepe batter is completely smooth; allow it to rest in the refrigerator for 2 hours before making into crepes.</p>
                 <p>Fill with whatever ingredients you wish. Suggestion: When you turn over the crepe, crack in a free range egg, and cook for a short while, then add fresh ham and grated gruyere cheese. Finish off cooking the egg under the grill, before folding over the crepe.</p>
-                <p>Delicious!</p>",
-  photo: "galettes.jpg"
+                <p>Delicious!</p>"
+  # photo: "galettes.jpg"
 )
 Recipe.create(
   name: "Avoca Santa Fe Pork Stew",
@@ -149,8 +149,8 @@ Recipe.create(
   with the tomatoes, wine, stock and vinegar and season with salt + pepper. Bring to the boil, transfer to the
   oven and cook UNCOVERED for 30 mins. Remove from oven and add the sweet potatoes and return to the oven for
   another 30 mins. Remove again, add the beans and cook for a further 15 mins until the beans are warmed through.
-  Stir in the coriander + parsley and serve with the creme fraiche and lime wedges.</p>",
-  photo: "pork_stew.jpg"
+  Stir in the coriander + parsley and serve with the creme fraiche and lime wedges.</p>"
+  # photo: "pork_stew.jpg"
 )
 Recipe.create(
   name: "Healthy Breakfast Bars (Odlums)",
@@ -168,8 +168,8 @@ Recipe.create(
                 <p>Meanwhile, mix together all the other ingredients and then add the warmed condensed milk. Mix well, making sure all the dry ingredients are moistened.</p>
                 <p>Spread the mixture evenly into the prepared tin. Press down well with the back of a spoon dipped in cold water.</p>
                 <p>Bake for about an hour, until golden brown and set. Remove from the oven and allow to cool a little before gently cutting into bars with a serrated knife (bread knife).</p>
-                <p>When cold, store in an airtight container.</p>",
-  photo: "breakfast_bars.jpg"
+                <p>When cold, store in an airtight container.</p>"
+  # photo: "breakfast_bars.jpg"
 )
 Recipe.create(
   name: "Flapjacks (Healthier version!)",
@@ -186,8 +186,8 @@ Recipe.create(
                 <p>Push down into a lined baking tin.</p>
                 <p>Oven at 130˚C for 1 hour.</p>
                 <p>Leave in tray for 15mins.</p>
-                <p>Then cut and leave to cool.</p>",
-  photo: "flapjacks.jpg"
+                <p>Then cut and leave to cool.</p>"
+  # photo: "flapjacks.jpg"
 )
 Recipe.create(
   name: "Spelt Brown Bread",
@@ -199,8 +199,8 @@ Recipe.create(
               <li>Seeds/nuts – eg, carroway seeds/pumpkin seeds</li>
               </ul>",
   instructions: "<p>Bake for 10 mins at 400F/200C/Gas mark 6</p>
-                <p>Another 40 mins at 350F/180C/Gas mark 4)</p>",
-  photo: "spelt_bread.jpg"
+                <p>Another 40 mins at 350F/180C/Gas mark 4)</p>"
+  # photo: "spelt_bread.jpg"
 )
 Recipe.create(
   name: "Gluten Free Raspberry Cakes",
@@ -214,8 +214,8 @@ Recipe.create(
               <li>36-60 raspberries</li>
               </ul>",
   instructions: "<p> Preheat the oven to 170C/325F/Gas 3.  Melt the butter and let it cool.</p>
-                <p>Sieve the icing sugar and flour together and add the ground almonds. Beat the eggs with a fork and add to the mixture, stirring to combine. Add the cooled melted butter and mix it well. It will be quite a soft batter. Pour into bun cases in the muffin tin and top each one with 3-5 raspberries. Place the cakes in the oven and cook for 14-18 minutes until just firm in the centre. Wait for a few minutes before trying to take them out of the tins. Dust with icing sugar.</p>",
-  photo: "raspberry_cakes.jpg"
+                <p>Sieve the icing sugar and flour together and add the ground almonds. Beat the eggs with a fork and add to the mixture, stirring to combine. Add the cooled melted butter and mix it well. It will be quite a soft batter. Pour into bun cases in the muffin tin and top each one with 3-5 raspberries. Place the cakes in the oven and cook for 14-18 minutes until just firm in the centre. Wait for a few minutes before trying to take them out of the tins. Dust with icing sugar.</p>"
+  # photo: "raspberry_cakes.jpg"
 )
 
 HealthyTip.destroy_all
