@@ -1,0 +1,42 @@
+.devise-container {
+  margin: 50px 500px;
+  padding: 40px;
+  background-color: white;
+}
+
+.devise-login-heading {
+  h2 {
+    color: darken($brand-color, 10%);
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+}
+.devise-form-inputs {
+  label {
+    opacity: 0.5;
+  }
+  input:focus {
+    border-color: darken($brand-color, 10%);
+    box-shadow: none;
+  }
+}
+
+.btn-log-in {
+  background-color: darken($brand-color, 10%);
+  color: white;
+  border-radius: 4px;
+  font-family: $base-font;
+  padding: 10px 30px;
+  font-weight: 400px;
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  margin-bottom: 15px;
+  &:hover {
+  background-color: darken($brand-color, 10%);
+  opacity: 0.8;
+  text-decoration: none;
+  color: white;
+  }
+}
