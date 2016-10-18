@@ -5,6 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Admin.destroy_all
+
+Admin.create(
+  email: "aoife@gmail.com",
+  password: "111111",
+  password_confirmation: "111111"
+)
+
 # Recipe.destroy_all
 
 # Recipe.create(
