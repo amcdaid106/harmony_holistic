@@ -1,13 +1,13 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+    <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
       <h3 class="page-title">Contact</h3>
       <p>Please get in touch by e-mail or with the form below to schedule an appointment.</p>
 
       <%= simple_form_for @contact, :html => {:class => 'contact-form' } do |f| %>
         <%= f.input :name, :required => true %>
         <%= f.input :email, :required => true %>
-        <%= f.input :message, :as => :text, :required => true %>
+        <%= f.input :message, :as => :text, :required => true, input_html: { class: 'mceNoEditor' } %>
         <div class= "hidden">
           <%= f.input :nickname, :hint => 'Leave this field blank!' %>
         </div>
@@ -17,19 +17,23 @@
         </div>
       <% end %>
     </div>
-    <div class="col-xs-12 col-sm-5">
+    <div class="col-xs-12 col-sm-6 col-md-5">
       <div class="basic-contact-info">
         <h3 class="page-title">Address</h3>
         <p>31 Hollystown Demesne, Hollystown, Dublin 15, Co.Dublin</p>
         <iframe
           id="address-map"
-          width="450"
+          width="100%"
           height="250"
           frameborder="0" style="border:0"
           src="<%= @google_maps_url %>" allowfullscreen>
         </iframe>
       </div>
     </div>
+  </div>
+  <div class="other-contact-info text-center">
+    <span class="other-contact-info-label">Email:</span><span> harmonyholistictherapiesD15@gmail.com</span><br>
+    <span class="other-contact-info-label">Telephone:</span><span> 00 353 86 0216029</span>
   </div>
 </div>
 

@@ -33,3 +33,16 @@
     color: $brand-color;
   }
 }
+
+@media (max-width: 840px) {
+  h2 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
