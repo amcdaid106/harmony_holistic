@@ -9,19 +9,56 @@
       </button>
       <a href="/" class="navbar-brand">Home</a>
     </div>
+    <%
+      links = [{
+        href: "/about",
+        text: "About Us"
+      }, {
+        href: "/services",
+        text: "Services"
+      }, {
+        href: "/healthy_tips",
+        text: "Tips for Healthy Living"
+      }, {
+        href: "/recipes",
+        text: "Recipes"
+      }, {
+        href: "/reviews",
+        text: "Reviews"
+      }, {
+        href: "/useful_links",
+        text: "Useful Links"
+      }, {
+        href: "#",
+        text: "Blog"
+      }, {
+        href: "/contact",
+        text: "Contact"
+      }]
+      uri = request.env['PATH_INFO']
+      links.each do |link|
+        (link[:href] == uri) ? link[:class]= "active" : ""
+      end
+      links_left = links[0..5]
+      links_right = links[6..-1]
+    %>
     <nav class="collapse navbar-collapse" id="bs-navbar">
       <ul class="nav navbar-nav">
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/healthy_tips">Tips for Healthy Living</a></li>
-        <li><a href="/recipes">Recipes</a></li>
-        <li><a href="/reviews">Reviews</a></li>
-        <li><a href="/useful_links">Useful Links</a></li>
+        <% links_left.each do |link| %>
+          <%= raw "<li><a href='#{link[:href]}' class=#{link[:class]}>#{link[:text]}</a></li> " %>
+
+        <% end %>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Blog</a></li>
-        <li><a href="/contact">Contact Us</a></li>
+        <% links_right.each do |link| %>
+        <%= raw "<li><a href='#{link[:href]}' class=#{link[:class]}>#{link[:text]}</a></li> " %>
+        <% end %>
       </ul>
     </nav>
   </div>
 </header>
+
+
+
+
+

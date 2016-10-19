@@ -3,14 +3,25 @@
   margin-bottom: 0;
 
   a {
+    transition: all 0.3s ease;
     color: white;
+    &:hover {
+      color: $charcoal;
+    }
+    &.active {
+      background-color: $purple;
+      &:hover {
+        background-color: $purple;
+        color: white;
+      }
+    }
   }
 
   .navbar-nav {
     margin-left: 40px;
-    a:hover {
-      color: $charcoal;
-    }
+    // a:hover {
+    //   color: $charcoal;
+    // }
   }
 
   .icon-bar {
