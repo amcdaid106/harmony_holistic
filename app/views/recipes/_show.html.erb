@@ -11,7 +11,9 @@
         <div class="photo-section">
           <%= image_tag "#{recipe.avatar}", :class => "recipe-show-photo text-center" %>
         </div>
+        <h5>Ingredients:</h5>
         <p><%= raw recipe.ingredients %></p>
+        <h5>Instructions:</h5>
         <p><%= raw recipe.instructions %></p>
       </div>
     </div>
