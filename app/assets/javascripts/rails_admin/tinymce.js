@@ -1,7 +1,11 @@
 
 function tinymce_load(){
   tinymce.init({
-    selector: "textarea",
+    mode : "specific_textareas",
+    // selector : "form-control"
+    selector: "controls",
+    // selector: "mceEditor",
+    editor_deselector : "mceNoEditor",
     plugins: [
      "advlist autolink lists link image charmap print preview anchor",
      "searchreplace visualblocks code fullscreen autoresize",
