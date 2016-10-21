@@ -5,13 +5,13 @@ Rails.application.routes.draw do
 
   # get '/admin/sign_in', to: 'devise#admin_sign_in'
 
-  get '/about', to: 'pages#about'
-  get '/recipes', to: 'recipes#index'
-  get '/healthy_tips', to: 'healthy_tips#index'
-  get '/services', to: 'pages#services'
-  get '/useful_links', to: 'pages#useful_links'
-  get '/reviews', to: 'pages#reviews'
-  match '/contact',     to: 'contacts#new',             via: 'get'
+  get 'about', to: 'pages#about'
+  get 'recipes', to: 'recipes#index'
+  get 'healthy_tips', to: 'healthy_tips#index'
+  get 'services', to: 'pages#services'
+  get 'useful_links', to: 'pages#useful_links'
+  get 'reviews', to: 'pages#reviews'
+  get 'contact',     to: 'contacts#new'
   resources "contacts", only: [:new, :create]
 
 end
