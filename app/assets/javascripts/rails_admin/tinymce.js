@@ -1,11 +1,6 @@
-
-function tinymce_load(){
+function tinymceLoad(){
   tinymce.init({
-    mode : "specific_textareas",
-    // selector : "form-control"
-    selector: "controls",
-    // selector: "mceEditor",
-    editor_deselector : "mceNoEditor",
+    selector : ".rails_admin textarea",
     plugins: [
      "advlist autolink lists link image charmap print preview anchor",
      "searchreplace visualblocks code fullscreen autoresize",
@@ -15,5 +10,5 @@ function tinymce_load(){
     toolbar: "undo redo | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link"
   });
 }
-$(window).load(tinymce_load());
-$(document).on('pjax:complete', tinymce_load );
+$(window).load(tinymceLoad());
+$(document).on('pjax:complete', tinymceLoad );
