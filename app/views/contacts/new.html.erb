@@ -7,7 +7,7 @@
       <%= simple_form_for @contact, :html => {:class => 'contact-form' } do |f| %>
         <%= f.input :name, :required => true %>
         <%= f.input :email, :required => true %>
-        <%= f.input :message, :as => :text, :required => true, input_html: { class: 'mceNoEditor' } %>
+        <%= f.input :message, :as => :text, :required => true %>
         <div class= "hidden">
           <%= f.input :nickname, :hint => 'Leave this field blank!' %>
         </div>
