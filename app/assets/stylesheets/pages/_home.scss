@@ -1,86 +1,28 @@
-.carousel-inner {
-  .item > img {
-    max-height: 250px;
-    min-width: 500px;
-    margin: 0 auto;
+.banner-container {
+    position: relative;
+    overflow: hidden;
+    height: 70vh;
+  .banner-content {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+    h1 {
+      font-size: 55px;
+      text-align: center;
+      color: darken($purple, 10%);
+      // font-family: 'Satisfy', cursive;
+      // font-family: 'Tangerine', cursive;
+      // font-family: 'Great Vibes', cursive;
+      // font-family: 'Homemade Apple', cursive;
+      font-family: 'Calligraffitti', cursive;
+    }
   }
-}
-.carousel-control {
-  &.left, &.right {
-    background-image: none;
-  }
-}
-.welcome-info {
-  margin-top: 40px;
-}
-.welcome-info-item {
-  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-  min-height: 240px;
-  background-color: $purple;
-  color: white;
-  padding: 10px 21px;
-  border-radius: 3px;
-  margin: 20px 20px;
-  font-weight: lighter;
-  a {
+  .banner-image {
     position: absolute;
-    bottom: 25px;
-    color: #d7cfdc;
-    font-weight: normal;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
   }
 }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
-
-}
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-  .welcome-info-item {
-    min-height: 330px;
-  }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 765px) {
-  .welcome-info-item {
-    min-height: 200px;
-  }
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-  .welcome-info-item {
-    min-height: 220px;
-  }
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
-
-// ////////////////////////////
-// ///
-// /* Small devices (tablets, 768px and up) */
-// @media (min-width: @screen-sm-min) {
-//   .welcome-info-item {
-//     min-height: 330px;
-//   }
-// }
-
-// /* Medium devices (desktops, 992px and up) */
-// @media (min-width: @screen-md-min) {
-//   .welcome-info-item {
-//     min-height: 250px;
-//   }
-// }
-
-// /* Large devices (large desktops, 1200px and up) */
-// @media (min-width: @screen-lg-min) {
-//   .welcome-info-item {
-//     min-height: 220px;
-//   }
-// }
