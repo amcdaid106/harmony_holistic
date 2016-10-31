@@ -307,7 +307,7 @@ Admin.create(
 #         <li>Tuna</li>
 #         <li>Sardines</li>
 #         <li>Rainbow trout</li>
-#         </ul",
+#         </ul>",
 #   # photo: "vitamin_d.jpg"
 #   )
 
