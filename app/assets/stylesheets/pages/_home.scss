@@ -1,59 +1,40 @@
 .banner-container {
-    position: relative;
-    overflow: hidden;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  .banner-content {
-    position: relative;
-    z-index: 2;
-    h1 {
-      text-align: center;
-      color: $charcoal;
-      margin: 0 12px;
-      text-shadow: 1px 1px white;
-      font-family: 'Homemade Apple', cursive;
-    }
-  }
-  .banner-image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    opacity: 0.6;
-  }
+  position: relative;
 }
-@media only screen and (min-width : 1051px) {
-  .banner-content {
-    h1 {
-      font-size: 42px;
-    }
-  }
-}
-@media only screen and (max-width : 1050px) {
-  .banner-content {
-    h1 {
-      font-size: 32px;
 
-    }
-  }
+.banner-header {
+  color: $charcoal;
+  font-family: 'Homemade Apple', cursive;
+  margin: 12px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px white;
+  top: 30%;
+  z-index: 2;
+  width: 100%;
 }
+
+.banner-image {
+  opacity: 0.6;
+  width: 100%;
+  z-index: 1;
+}
+
 @media only screen and (max-width : 774px) {
-  .banner-content {
-    h1 {
-      line-height: 1.5;
-    }
+  .banner-header {
+    font-size: 1.8em;
   }
 }
-@media only screen and (min-width : 676px) {
-  .banner-container {
-    padding: 15% 0 0 0
+
+.home-information-section {
+  padding: 50px 0;
+  margin: 50px 0 25px 0;
+  background-color: rgba(158, 146, 157, 0.42);
+  p {
+    font-size: 20px;
   }
-}
-@media only screen and (max-width : 675px) {
-  .banner-container {
-    padding: 7% 0 0 0
+  h3 {
+    font-family: 'Calligraffitti', cursive;
   }
 }
 
