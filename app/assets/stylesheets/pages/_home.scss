@@ -11,9 +11,9 @@
     h1 {
       text-align: center;
       color: $charcoal;
-      text-shadow: 0.1px 0.1px;
+      margin: 0 12px;
+      text-shadow: 1px 1px white;
       font-family: 'Homemade Apple', cursive;
-      // font-family: 'Calligraffitti', cursive;
     }
   }
   .banner-image {
@@ -21,7 +21,6 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
     opacity: 0.6;
   }
 }
