@@ -10,7 +10,7 @@
   }
 
   h1, h2 {
-    color: darken($brand-color, 10%);
+    color: darken($brand-color, 15%);
     margin-top: 0;
   }
 
@@ -30,7 +30,7 @@
   }
   i {
     padding: 3px 10px 0 0;
-    color: $brand-color;
+    color: darken($brand-color, 10%);
   }
 }
 
