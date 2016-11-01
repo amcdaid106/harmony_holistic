@@ -26,20 +26,7 @@
   }
 }
 
-// .home-information-section-first {
-//   background-color: rgba(158, 146, 157, 0.42);
-//   margin: 0 0 25px 0;
-//   padding: 50px 0;
-//   h3 {
-//     font-family: 'Calligraffitti', cursive;
-//   }
-//   p {
-//     font-size: 20px;
-//   }
-// }
-.home-information-section {
-  background-color: rgba(158, 146, 157, 0.42);
-  // margin: 50px 0 25px 0;
+.home-information-item {
   padding: 50px 0;
   h3 {
     font-family: 'Calligraffitti', cursive;
@@ -47,13 +34,9 @@
   p {
     font-size: 20px;
   }
-}
-
-.home-info-section-odd {
-  background-color: rgba(158, 146, 157, 0.42);
-}
-.home-info-section-even {
-  background-color: lighten($brand-color, 8%);
+  &:nth-child(odd) {
+    background-color: rgba(158,146,157,0.15);
+  }
 }
 
 
