@@ -2,7 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
+.card {
+    transition: all 0.3s ease;
+}
+.card:hover {
+    opacity: 0.9;
+}
 
 .healthy-tip-link {
   color: black;
