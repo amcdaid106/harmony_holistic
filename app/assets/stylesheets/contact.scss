@@ -6,14 +6,16 @@
   display: none;
 }
 
-#address-map {
-  height: 300px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 3px;
-  margin-top: 30px;
+.send-message-button {
+    background-color: $silk;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: $silk;
+        color: $charcoal;
+    }
 }
-
 #contact_message {
   min-height: 106px;
 }
@@ -24,6 +26,13 @@
   margin-top: 50px;
 }
 
+#address-map {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 3px;
+  margin-top: 30px;
+}
 .other-contact-info {
   margin-top: 30px;
   .other-contact-info-label {
