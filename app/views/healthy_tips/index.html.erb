@@ -1,32 +1,28 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <div class="healthy-tip-section">
-        <h3 class="text-center page-title">Tips for Healthy Living</h3>
-          <% @healthy_tips.each do |healthy_tip| %>
-            <%= link_to "#", "data-toggle" => "modal", "data-target" => "#healthy_tip-#{healthy_tip.id}", :class => "healthy-tip-link" do %>
-              <div class="row">
-                <div class="col-xs-12 col-sm-4">
-                  <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= asset_path healthy_tip.avatar %>);">
-                    <div class="card-description visible-xs">
-                      <h4><%= healthy_tip.title %></h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-0 col-sm-8">
-                  <div class="healthy-tip-text">
-                    <h4><%= healthy_tip.title %></h4>
-                    <p><%= raw healthy_tip.body %></p>
-                    <div class="healthy-tip-show-more">
-                      <i class="fa fa-external-link" aria-hidden="true"></i>
-                    </div>
-                  </div>
-                </div>
+      <h3 class="text-center page-title">Tips for Healthy Living</h3>
+      <% @healthy_tips.each do |healthy_tip| %>
+        <%= link_to "#", "data-toggle" => "modal", "data-target" => "#healthy_tip-#{healthy_tip.id}", :class => "healthy-tip-link" do %>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(<%= asset_path healthy_tip.avatar %>);">
+              <div class="card-description visible-xs">
+                <h4><%= healthy_tip.title %></h4>
               </div>
-            <% end %>
-            <%= render 'healthy_tips/show', healthy_tip: healthy_tip %>
-          <% end %>
-      </div>
+            </div>
+          </div>
+          <div class="hidden-xs col-sm-8">
+            <div class="healthy-tip-text">
+              <h4><%= healthy_tip.title %></h4>
+              <p><%= raw healthy_tip.body %></p>
+              <div class="healthy-tip-show-more">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        <% end %>
+        <%= render 'healthy_tips/show', healthy_tip: healthy_tip %>
+      <% end %>
     </div>
   </div>
 </div>
