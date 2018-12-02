@@ -4,16 +4,18 @@
       <h3 class="page-title">Contact</h3>
       <p>Please get in touch by e-mail or with the form below to schedule an appointment.</p>
 
-      <%= simple_form_for @contact, :html => {:class => 'contact-form' } do |f| %>
+      <%= simple_form_for @contact, :html => {:id => 'contact-form' } do |f| %>
         <%= f.input :name, :required => true %>
         <%= f.input :email, :required => true %>
         <%= f.input :message, :as => :text, :required => true %>
+        <%= f.input :accept_gdpr, :as => :boolean, :label => "By checking this box, you understand and agree that this form collects your name and email so you can be contacted.", :required => true, :input_html => { :id => "gdpr-checkbox", :onclick => "toggleEnableSubmit()" }
+        %>
         <div class= "hidden">
           <%= f.input :nickname, :hint => 'Leave this field blank!' %>
         </div>
         <div>
           <br>
-          <%= f.button :submit, 'Send message', :class=> "btn send-message-button" %>
+          <%= f.button :submit, 'Send message', :class => "btn send-message-button", :disabled => "true" %>
         </div>
       <% end %>
     </div>
@@ -36,6 +38,14 @@
     <span class="other-contact-info-label">Telephone:</span><span> 086 0216029</span>
   </div>
 </div>
+
+<script>
+  function toggleEnableSubmit() {
+    const gdprCheckbox = document.getElementById('gdpr-checkbox');
+    const submitButton = document.getElementsByClassName('send-message-button')[0]
+    submitButton.disabled = !gdprCheckbox.checked;
+  }
+</script>
 
 
 

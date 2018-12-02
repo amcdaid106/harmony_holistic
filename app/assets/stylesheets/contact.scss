@@ -1,20 +1,24 @@
-.contact-form {
+#contact-form {
   margin-top: 30px;
+
+  label > abbr {
+    display: none;
+  }
 }
 
 .hidden {
   display: none;
 }
 
-.send-message-button {
+.send-message-button:not([disabled]) {
+  background-color: $silk;
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+  &:hover {
     background-color: $silk;
-    border: none;
-    color: white;
-    transition: all 0.3s ease;
-    &:hover {
-        background-color: $silk;
-        color: $charcoal;
-    }
+    color: $charcoal;
+  }
 }
 #contact_message {
   min-height: 106px;
