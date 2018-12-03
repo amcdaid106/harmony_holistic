@@ -6,12 +6,36 @@
   color: $charcoal;
   font-family: 'Homemade Apple', cursive;
   margin: 12px;
+  text-shadow: 1px 1px white;
+  width: 100%;
+}
+
+.banner-content {
   position: absolute;
   text-align: center;
-  text-shadow: 1px 1px white;
   top: 30%;
   z-index: 2;
+}
+
+.banner-button-container {
+  top: 45%;
   width: 100%;
+  button {
+    background: #BDAAA4;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    height: 50px;
+    outline: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    &:hover {
+      color: $charcoal;
+    }
+  }
 }
 
 .banner-image {
